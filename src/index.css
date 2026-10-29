@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: hidden;
+    touch-action: none;
+    background-color: #0f172a;
+    color: #f8fafc;
+  }
+}
+
+.font-arcade {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+/* Custom glow classes for high score flash */
+.glow-gold {
+  box-shadow: 0 0 25px rgba(250, 204, 21, 0.75), inset 0 0 15px rgba(250, 204, 21, 0.4);
+  text-shadow: 0 0 12px rgba(250, 204, 21, 0.9);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+}
+
+.text-stroke-sm {
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.45);
+}
+
+.text-stroke-md {
+  -webkit-text-stroke: 2.5px rgba(0, 0, 0, 0.7);
+}

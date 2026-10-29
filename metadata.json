@@ -1,0 +1,6 @@
+{
+  "name": "Rena Runner Game",
+  "description": "Rena Runner Game - An energetic 3D cartoon endless runner game with customizable characters, vibrant light and dark open-world subway tracks, power-ups, and smooth acrobatic controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
